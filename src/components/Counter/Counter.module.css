@@ -1,0 +1,30 @@
+.counterBody {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.counterInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  max-width: 200px;
+}
+
+.counterInput input {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  background: linear-gradient(to left, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+  border-radius: 10px;
+}
+
+.counterInput button {
+  border-radius: 10px;
+  font-size: 2rem;
+  background: linear-gradient(to right, #457fca, #5691c8);
+  color: #ffffff;
+}

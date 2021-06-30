@@ -6,7 +6,7 @@ export const Counter = () => {
   const [count, setCount] = useState("");
 
   useEffect(() => {
-    document.title = `You clicked ${count} times`;
+    document.title = `You entered ${count}...`;
   });
 
   const onSubmit = (e: any) => {

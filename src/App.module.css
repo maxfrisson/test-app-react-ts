@@ -9,3 +9,9 @@
   color: #ffffff;
   font-size: 2rem;
 }
+
+@media (max-width: 900px) {
+  .appBody {
+    flex-direction: column;
+  }
+}

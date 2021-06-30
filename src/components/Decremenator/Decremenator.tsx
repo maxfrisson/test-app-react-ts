@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import style from "./Decremenator.module.css";
 
-export const Decremenator = () => {
+export const Decremenator: React.FC = () => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ export const Decremenator = () => {
         You clicked <br /> {count} <br /> times
       </p>
       <button className={style.decrementButton} onClick={() => setCount(count - 1)}>
-        Click me
+        DECREMENT
       </button>
     </div>
   );

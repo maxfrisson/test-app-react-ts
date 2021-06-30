@@ -14,7 +14,7 @@ export const Incremenator = () => {
         You clicked <br /> {count} <br /> times
       </p>
       <button className={style.incrementButton} onClick={() => setCount(count + 1)}>
-        Click me
+        INCREMENT
       </button>
     </div>
   );

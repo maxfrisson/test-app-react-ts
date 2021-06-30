@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import style from "./Counter.module.css";
 
-export const Counter = () => {
+export const Counter: React.FC = () => {
   const [tempCount, setTempCount] = useState("");
   const [count, setCount] = useState("");
 

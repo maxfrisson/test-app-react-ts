@@ -1,0 +1,17 @@
+.incremenatorBody {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+.incrementButton {
+  border-radius: 10px;
+  font-size: 2rem;
+  background: linear-gradient(to right, #457fca, #5691c8);
+  color: #ffffff;
+}

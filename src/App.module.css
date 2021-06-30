@@ -1,17 +1,17 @@
 .appBody {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  height: 100vh;
   display: flex;
+  height: 100vh;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  text-align: center;
   background: linear-gradient(to right, #56ccf2, #2f80ed);
   color: #ffffff;
   font-size: 2rem;
+  text-align: center;
 }
 
-@media (max-width: 900px) {
-  .appBody {
-    flex-direction: column;
-  }
+.appList {
+  display: flex;
+  justify-content: center;
 }
